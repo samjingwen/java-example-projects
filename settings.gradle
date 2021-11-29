@@ -1,3 +1,6 @@
 rootProject.name = 'java-example-projects'
 
 include 'stream-forker'
+
+include 'gradle-dept-mgmt:cli'
+include 'gradle-dept-mgmt:gitutils'

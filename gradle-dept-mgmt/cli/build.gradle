@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(project(":gradle-dept-mgmt:gitutils"))
+    implementation("info.picocli:picocli:3.9.5")
+}
+
+application {
+    mainClassName = "org.gradle.webinar.dm.cli.Main"
+}
